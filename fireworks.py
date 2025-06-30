@@ -18,18 +18,12 @@ def print_letter(prefix, a, postfix):
 			break
 			
 prefix = ''
-word = 'hello there'
+word = 'meeeeeemmmoooorryyy ITS sO EASSSSYYYY LEAVE MEEEEEEEE'
 postfix=''
 for char in word:
 	print_letter(prefix, char, postfix)
 	prefix += char
 	
-prefix2 = ''
-word2 = 'how are you today'
-for i in range(len(word2)):
-	postfix2= word[(i+1):]
-	print_letter(prefix2,word2[i],postfix2)
-	prefix2 += word2[i:i+1]
 	
 
 
